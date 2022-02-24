@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cakeapp/static/css/main.19927973.css",
+    "main.js": "/cakeapp/static/js/main.eb63b949.js",
+    "static/media/icon.jpg": "/cakeapp/static/media/icon.7fa7b8c64e90e91361eb.jpg",
+    "index.html": "/cakeapp/index.html",
+    "main.19927973.css.map": "/cakeapp/static/css/main.19927973.css.map",
+    "main.eb63b949.js.map": "/cakeapp/static/js/main.eb63b949.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19927973.css",
+    "static/js/main.eb63b949.js"
+  ]
+}
