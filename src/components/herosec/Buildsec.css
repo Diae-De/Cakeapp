@@ -1,0 +1,62 @@
+.allinfo{
+    margin-top:30px;
+}
+
+.dishe{
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.prod{
+    margin: 0 2rem;
+    width: 130px;
+}
+
+.prod img{
+    margin-top:20px;
+    line-height:2;
+    height:120px;
+    min-width: 120px;
+    max-width: 100%;
+}
+
+.productinfo{
+    margin-top: 2em;
+    margin-bottom:2em;
+}
+
+.disjinfo{
+    font-weight: 900;
+    letter-spacing:-0.5px;
+    color:#1f1c17;
+    width:150%;
+    font-size: 17px;
+}
+
+.dishprice{
+    font-size: 11px;
+    color:gray;
+}
+
+.heart{
+    display: flex;
+    justify-content: space-between;
+    margin-top:-12px;
+}
+
+.redline{
+    border-left: 2px solid red;
+    border-radius:20px;
+    transform: rotate(90deg);
+    margin-left:9px;
+}
+
+.btnlike{
+    transition: all 0.3s ease-in-out;
+}
+
+.btnlike:hover{
+    font-size:18px;
+}
