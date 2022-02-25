@@ -5,7 +5,7 @@
     margin-left:auto;
     margin-right: auto;
     margin-top:25px;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .xarrow{
@@ -20,18 +20,26 @@
     font-size:80px;
     font-weight:bold;
     color:#1f1c17;
-    width:50%;
     position: absolute;
-    top: 12px;
-    margin-left:0.9em;
-    text-align: right;
+    display: flex;
+    text-align: center;
+    justify-content: center;  
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 25px;
+    height: 150px;
     z-index: -1;
     letter-spacing: -3px;
 }
 
 .productborder{
     margin-top:20px;
-    margin-left:11.3em;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
     width:25px;
     border: 3px solid rgb(184, 65, 65);
 }
@@ -58,6 +66,13 @@
     font-size: 30px;
     font-weight: 900;
     color:#1f1c17;
+    text-align: center;
+    justify-content: center;  
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .heart{
@@ -72,16 +87,24 @@
     flex:1 1 30%;
     font-size:20px;
     color: grey;
+
 }
 
 .desc{
     margin-top:50px;
-    margin-left: 35px;
 }
 
 .pdesc{
     color: rgb(185, 185, 185);
     font-weight: 900;
+    display: flex;
+    text-align: center;
+    justify-content: center;  
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .paradesc{
@@ -90,6 +113,14 @@
     text-align:justify;
     font-size:20px;
     color: rgb(70, 70, 70);
+    display: flex;
+    text-align: center;
+    justify-content: center;  
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .counter{
@@ -99,6 +130,11 @@
     justify-content: center;
     align-items: center;
     margin-top:30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .min{
