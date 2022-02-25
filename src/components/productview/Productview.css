@@ -14,6 +14,7 @@
     top:0;
     margin: 20px;
     font-size: 20px;
+    color:rgb(184, 65, 65);
 }
 
 .productbackground{
@@ -54,10 +55,15 @@
 }
 
 .producttitle{
-    margin-top:50px;
-    margin-left: 35px;
-    display: flex;
+    margin-top:50px;   
     flex-wrap: wrap;
+    display: flex;   
+    justify-content: center;  
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .title{
@@ -84,9 +90,9 @@
 
 .price{
     display:flex;
-    flex:1 1 30%;
+    flex:0 0 50%;
     font-size:20px;
-    color: grey;
+    color: grey; 
 
 }
 
@@ -114,7 +120,6 @@
     font-size:20px;
     color: rgb(70, 70, 70);
     display: flex;
-    text-align: center;
     justify-content: center;  
     align-items: center;
     margin-left: auto;
