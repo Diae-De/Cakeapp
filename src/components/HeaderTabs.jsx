@@ -3,10 +3,12 @@ import "./Headerstyle.css"
 import image from "../images/icon.jpg"
 import { BsListNested } from "react-icons/bs";
 import {HiShoppingCart} from "react-icons/hi"
+import Fade from 'react-reveal/Fade'
 
 export default function HeaderTabs() {
   return (
     <>
+    <Fade top>
     <div className="Tabs">
         <img className="image" src={image}/>
         <div className="infosec">
@@ -16,6 +18,7 @@ export default function HeaderTabs() {
         <div className="carticon"><HiShoppingCart/></div>
         <div className="listicon"><BsListNested/></div>
     </div>
+    </Fade>
         
     </>
   )
